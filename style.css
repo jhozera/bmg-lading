@@ -770,10 +770,54 @@ nav{
   }
   
   
-  @media (min-width: 1025px){
+
+@media (min-width:1300px) {
+    .topnav{
+        display: none;
+    }
+}
+
+
+  @media (min-width: 1025px) and (max-width:1299px){
    .topnav{
     display: none;
    }
+
+
+
+.vantagens-gt{
+    flex-wrap: wrap;
+}
+
+.banner-con img{
+    width: 100%;
+}
+
+.app-sub{
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-sub img{
+    width: 100%;
+}
+
+.app-text img{
+    width: 100%;
+}
+
+.app-text{
+    align-items: center;
+}
+
+
+.button-pt{
+    width: 400px;
+}
+
+.cartoes-times{
+    width: 500px;
+}
 
   }
 
@@ -826,6 +870,10 @@ nav{
 
     .button-pt{
         width: 400px;
+    }
+
+    .cartoes-times{
+        width: 500px;
     }
 
   }
