@@ -775,10 +775,15 @@ nav{
     .topnav{
         display: none;
     }
+
+    .cartoes-times{
+        justify-content: center;
+    }
+    
 }
 
 
-  @media (min-width: 1025px) and (max-width:1299px){
+@media (min-width: 1025px) and (max-width:1299px){
    .topnav{
     display: none;
    }
@@ -810,10 +815,6 @@ nav{
     align-items: center;
 }
 
-
-.button-pt{
-    width: 400px;
-}
 
 .cartoes-times{
     width: 500px;
