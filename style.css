@@ -184,7 +184,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
     gap: 80px;
 }
 
@@ -214,18 +214,12 @@ nav{
 }
 
 
-.banner img{
-    margin-right: -100px;
-}
-
-
-
 .banner-button{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 100px;
+    /* padding: 100px; */
 }
 
 .banner-button a{
@@ -237,6 +231,7 @@ nav{
     align-content: center;
     border-radius: 45px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .banner-button h2{
@@ -296,11 +291,11 @@ nav{
 }
 
 .cartoes-text h5{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .cartoes-text p{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .cartoes-times{
@@ -368,6 +363,14 @@ nav{
     flex-direction: column;
     font-family: 'Montserrat', Arial, sans-serif;
     gap: 20px;
+}
+
+.app-text h1{
+    font-size: 40px;
+}
+
+.app-text p{
+    font-size: 20px;
 }
  
 .app-sub img{
@@ -810,6 +813,7 @@ nav{
     padding: 5px;
     justify-content: center;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .bmg-text a:hover{
@@ -842,6 +846,11 @@ nav{
     .mobile{
         display: none;
     }
+
+    .banner{
+        justify-content: center;
+        align-items: center;
+    }
     
 }
 
@@ -871,7 +880,7 @@ nav{
 }
 
 .app-text img{
-    width: 100%;
+    width: 40%;
 }
 
 .app-text{
@@ -883,9 +892,63 @@ nav{
     width: 500px;
 }
 
-.mobile{
+
+.desp{
     display: none;
 }
+
+
+.banner{
+    align-items: center;
+    flex-direction: column;
+}
+
+.car-bmg img{
+    width: 100%;
+}
+
+.app-sub img{
+    width: 100%;
+}
+
+.banner-button{
+    padding: 10px;
+}
+
+
+.cartoes-text h5 {
+    font-size: 50px;
+}
+
+.cartoes-text p{
+    font-size: 30px;
+}
+
+.bmg-text p{
+    font-size: 30px;
+}
+
+
+.app-text h1{
+    font-size: 50px;
+}
+
+.app-text p{
+    font-size: 30px;
+}
+
+.app-text a{
+    width: 40%;
+}
+
+.app-sub img{
+    width: 60%;
+}
+
+.banner-button{
+    padding: 60px;
+}
+
 
   }
 
@@ -957,7 +1020,39 @@ nav{
     }
 
     .app-sub img{
-        width: 100%;
+        width: 70%;
+    }
+
+    .app-text{
+        align-items: center;
+    }
+
+    .app-text h1{
+        font-size: 50px;
+    }
+
+    .app-text p{
+        font-size: 30px;
+    }
+
+    .app-text a{
+        width: 70%;
+    }
+
+    .banner-button{
+        padding: 10px;
+    }
+
+    .cartoes-text h5 {
+        font-size: 50px;
+    }
+
+    .cartoes-text p{
+        font-size: 30px;
+    }
+
+    .bmg-text p{
+        font-size: 30px;
     }
 
 
@@ -1030,6 +1125,39 @@ nav{
         width: 100%;
     }
 
+    .banner-button{
+        padding: 10px;
+    }
+
+    
+    .cartoes-text h5 {
+        font-size: 50px;
+    }
+
+    .cartoes-text p{
+        font-size: 30px;
+    }
+
+    .bmg-text p{
+        font-size: 30px;
+    }
+
+    
+    .app-text h1{
+        font-size: 50px;
+    }
+
+    .app-text p{
+        font-size: 30px;
+    }
+
+    .app-text a{
+        width: 70%;
+    }
+
+
+
+
 }
 
 
@@ -1098,6 +1226,10 @@ nav{
 
     .app-sub img{
         width: 100%;
+    }
+
+    .banner-button{
+        padding: 10px;
     }
 
 
