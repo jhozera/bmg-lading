@@ -371,6 +371,7 @@ nav{
 }
  
 .app-sub img{
+    width: 30%;
     transition: transform 0.5s ease;
 
 }
@@ -808,6 +809,7 @@ nav{
     border-radius: 45px;
     padding: 5px;
     justify-content: center;
+    font-weight: bold;
 }
 
 .bmg-text a:hover{
@@ -835,6 +837,10 @@ nav{
 
     .cartoes-times{
         justify-content: center;
+    }
+
+    .mobile{
+        display: none;
     }
     
 }
@@ -875,6 +881,10 @@ nav{
 
 .cartoes-times{
     width: 500px;
+}
+
+.mobile{
+    display: none;
 }
 
   }
@@ -934,6 +944,23 @@ nav{
         width: 500px;
     }
 
+    .desp{
+        display: none;
+    }
+
+    .car-bmg{
+        flex-direction: column;
+    }
+
+    .car-bmg img{
+        width: 100%;
+    }
+
+    .app-sub img{
+        width: 100%;
+    }
+
+
   }
 
   @media (max-width: 768px){
@@ -985,6 +1012,22 @@ nav{
 
     .button-pt{
         width: 400px;
+    }
+
+    .desp{
+        display: none;
+    }
+
+    .car-bmg{
+        flex-direction: column;
+    }
+
+    .car-bmg img{
+        width: 100%;
+    }
+
+    .app-sub img{
+        width: 100%;
     }
 
 }
@@ -1040,5 +1083,22 @@ nav{
     .button-pt{
         width: 400px;
     }
+
+    .car-bmg{
+        flex-direction: column;
+    }
+
+    .car-bmg img{
+        width: 100%;
+    }
+
+    .desp{
+        display: none;
+    }
+
+    .app-sub img{
+        width: 100%;
+    }
+
 
   }
