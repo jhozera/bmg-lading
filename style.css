@@ -206,18 +206,16 @@ nav{
     height: auto;
     text-align: center;
     align-content: center;
-    padding: 90px;
+    /* padding: 90px; */
     gap: 50px;
     display: flex;
-    justify-content: center;
-    background-color: #fa6300;
+    justify-content: normal;
+    background-color: #462a71;
 }
 
 
 .banner img{
-    width: 40%;
-    padding: 20px; 
-    border-radius: 45px;
+    margin-right: -100px;
 }
 
 
@@ -227,10 +225,11 @@ nav{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    padding: 100px;
 }
 
 .banner-button a{
-    background-color: #462a71;
+    background-color: #fa6300;
     color: #ffffff;
     font-weight: bold;
     width: 400px;
@@ -343,7 +342,7 @@ nav{
 
 
 .times img{
-    transition: transform 0.5s ease;
+    transition: transform 1.0s ease;
 
 }
 
@@ -768,8 +767,66 @@ nav{
     transform: translateX(1.5em);
     outline-color: #181818;
   }
+
+
+  .cartao-bmg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #462a71;
+    padding: 50px;
+  }
+
+  .car-bmg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bmg-text{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+
+  }
+
+  .bmg-text h1{
+    font-size: 40px;
+  }
   
+  .bmg-text p{
+    font-size: 20px;
+  }
   
+  .bmg-text a{
+    display: flex;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    background-color: #fa6300;
+    width: 300px;
+    align-content: center;
+    border-radius: 45px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.bmg-text a:hover{
+    background-color: #f8e808;
+}
+
+.car-bmg img{
+    transition: transform 1.4s ease;
+
+}
+
+.car-bmg img:hover{
+    transform: rotateY(360deg);
+
+
+}
+
+
+
 
 @media (min-width:1300px) {
     .topnav{
